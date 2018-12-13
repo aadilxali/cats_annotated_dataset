@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Database Viewer</title>
+    <link rel="stylesheet" href="catdb.css"/>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="catdb.js"></script>
+  </head>
+  <body>
+    <div class="controls">
+      <form>
+        <button id="prev">&larr;</button>
+        <input id="current" type="text" value="0" size="4"/>
+        <button id="next">&rarr;</button>
+      </form>
+    </div>
+    <span class="viewer">
+      <canvas id="cat"/>
+    </span>
+    <div class="source">
+      Data Source:
+      <a href="http://137.189.35.203/WebUI/CatDatabase/catData.html">
+        Cat Dataset
+      </a>
+    </div>
+  </body>
+</html>
